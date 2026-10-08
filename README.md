@@ -12,6 +12,16 @@ Estimate which floor a vehicle is on in a multi-level parking garage using a **H
 | `test_hmm.py` | Unit tests |
 | `simulation_results.csv` | Output from the experimental sweep |
 
+## Git hooks (optional)
+
+To block Cursor from adding `Co-authored-by: Cursor` on commits in this repo:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The hook is already in `.githooks/commit-msg`.
+
 ## Requirements
 
 Python 3. No extra packages—stdlib only.
